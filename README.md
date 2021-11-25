@@ -7,17 +7,17 @@ A calendar for a specific variable needs to use 100MW (words) of the PLC for its
 
 The coding of the words is shown in the following table:
 
-| bit | Description | |
+| bit | Description |
 | ------ | ------ |
-| 0 | Enabling, days Integer [1-7]|
-| [1-12] | MONDAY, 6 timeslots, BCD | [13-24] | TUESDAY, 6 timeslots, BCD |
-| [13-24] | TUESDAY, 6 time slots, BCD | [25-36] | [25-36] | TUESDAY, 6 time slots, BCD |
-| [25-36] | WEDNESDAY, 6 time slots, BCD | [37-48] | WEDNESDAY, 6 time slots, BCD | [37-48
-| [37-48] | THURSDAY, 6 hourly intervals, BCD | [49-60] | THURSDAY, 6 hourly intervals, BCD|
-| [49-60] | FRIDAY, 6 time slots, BCD| [49-60] | FRIDAY, 6 time slots, BCD|
-| [61-72] | SATURDAY, 6 time slots, BCD| [73-84] | SUNDAY, 6 time slots, BCD|
-| [73-84] | SUNDAY, 6 time slots, BCD| [73-84] | [73-84] | SUNDAY, 6 time slots, BCD|
-| [85] | [85] | [85] | [85] | Activation bit |
+| 0 | Enabling days, Integer[1-7]|
+| [1-12] |  MONDAY, 6 time slots, BCD |
+| [13-24] | TUESDAY, 6 time slots, BCD |
+| [25-36] | WEDNESDAY, 6 time slots, BCD |
+| [37-48] | THURSDAY, 6 time slots, BCD|
+| [49-60] | FRIDAY, 6 time slots, BCD|
+| [61-72] | SATURDAY, 6 time slots, BCD|
+| [73-84] | SUNDAY, 6 time slots, BCD|
+| 85 | Activation bit |
 
 Each circuit to be controlled by calendar requires 7 user-defined function blocks that are placed in a corresponding Task/Rung:
 
