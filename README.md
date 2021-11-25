@@ -1,4 +1,4 @@
-# Generate-IL-program-TM221-Schneider
+# Generate Calendar IL program TM221 Schneider with python
 Program that generates code in IL format for Schneider TM221 programmable controllers.  It implements autonomous calendars in the PLC, programmable by modbus through user-defined functions.
 
 The work carried out for the implicit programming of calendars for Schneider TM221 PLC automatons is described.
