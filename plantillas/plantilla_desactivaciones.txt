@@ -1,0 +1,9 @@
+LD    %MW{}:X{}
+OR    %MW{}:X{}
+OR    %MW{}:X{}
+OR    %MW{}:X{}
+OR    %MW{}:X{}
+OR    %MW{}:X{}
+OR    %MW{}:X{}
+FALLING0
+R     %Q_0

@@ -1,0 +1,21 @@
+LD    %MW{}
+AND   [ SW_RTCDAY = {} ]
+AND(  [ SW_RTCHHMM >= %MW{} ]
+AND   [ SW_RTCHHMM < %MW{} ]
+OR(   [ SW_RTCHHMM >= %MW{} ]
+AND   [ SW_RTCHHMM < %MW{} ]
+)
+OR(   [ SW_RTCHHMM >= %MW{} ]
+AND   [ SW_RTCHHMM < %MW{} ]
+)
+OR(   [ SW_RTCHHMM >= %MW{} ]
+AND   [ SW_RTCHHMM < %MW{} ]
+)
+OR(   [ SW_RTCHHMM >= %MW{} ]
+AND   [ SW_RTCHHMM < %MW{} ]
+)
+OR(   [ SW_RTCHHMM >= %MW{} ]
+AND   [ SW_RTCHHMM < %MW{} ]
+)
+)
+ST    %VAR0:X{}

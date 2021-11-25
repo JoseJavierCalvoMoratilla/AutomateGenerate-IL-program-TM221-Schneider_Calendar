@@ -1,0 +1,9 @@
+LD    %MW{}:X{}
+OR    %MW{}:X{}
+OR    %MW{}:X{}
+OR    %MW{}:X{}
+OR    %MW{}:X{}
+OR    %MW{}:X{}
+OR    %MW{}:X{}
+RISING0
+S     %Q_0
